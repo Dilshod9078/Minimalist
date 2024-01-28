@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    padding: 64px 0 54px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.site-logo-link {
+    display: inline-block;
+}
+.header-list {
+    display: flex;
+    align-items: center;
+}
+.header-item + .header-item{
+    margin-left: 42px;
+}
+.header-link {
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: color linear 0.3s;
+}
+.header-link:hover{
+    color: #5FB4A2;
+}
+
+.hero-section {
+    padding-bottom: 150px;
+}
+.hero {
+    padding: 243px 665px 0 0;
+    background-image: url("../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.hero-content {
+    width: 445px;
+    height: 357px;
+    padding: 56px 55px 0  0;
+    background-color: #FAFAFA;
+}
+.hero-content-title {
+    width: 390px;
+    margin-bottom: 53px;
+}
+.hero-title {
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px; 
+    letter-spacing: -0.446px;
+}
+.hero-card {
+    width: 200px;
+    background-color: #203A4C;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color linear 0.3s;
+}
+.hero-card:hover{
+    background-color: #5FB4A2;
+}
+.hero-link {
+    margin-left: 37px;
+    display: inline-block;
+    color: #FFF;
+    text-align: center;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
+.about-section {
+    padding-bottom: 150px;
+}
+.about {
+    padding-right: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-content {
+    width: 350px;
+    position: relative;
+}
+.about-content::before{
+    content: " ";
+    width: 350px;
+    height: 1px;
+    opacity: 0.15;
+    background-color: #33323D;
+    position: absolute;
+    top: -49px;
+    right: 0;
+}
+.about-content::after{
+    content: " ";
+    width: 350px;
+    height: 1px;
+    opacity: 0.15;
+    background-color: #33323D;
+    position: absolute;
+    top: 550px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.about-title {
+    margin-bottom: 28px;
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; 
+    letter-spacing: -0.357px;
+}
+.about-text {
+    margin-bottom: 24px;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.about-link {
+    width: 202px;
+    padding: 17px 0;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #33323D;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+.about-link:hover{
+    color: #5FB4A2;
+    border-color: #5FB4A2;
+}
+
+.project-section {
+    padding-bottom: 150px;
+}
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-wrapper {
+    width: 350px;
+}
+.project-title {
+    color: #33323D;
+    font-family: "Ibarra Real Nova";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px; 
+    letter-spacing: -0.357px;
+}
+.project-line {
+    width: 534px;
+    height: 1px;
+    display: inline-block;
+    opacity: 0.15;
+    background-color: #33323D;
+}
+.project-link {
+    width: 162px;
+    padding: 17px 0;
+    display: inline-block;
+    border: 1px solid #33323D;
+    text-align: center;
+    color: #33323D;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+.project-link:hover{
+    color: #5FB4A2;
+    border-color: #5FB4A2;
+}
+
+.site-footer {
+    padding: 24px 0;
+    background-color: #33323D;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-card {
+    display: flex;
+    align-items: center;
+}
+.footer-logo-link {
+    display: inline-block;
+}
+.footer-navbar {
+    margin-left: 48px;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+}
+.footer-item + .footer-item{
+    margin-left: 42px;
+}
+.footer-link {
+    color: #FFF;
+    font-family: "Public Sans";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer-social {
+    width: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-social > svg{
+    cursor: pointer;
+}
